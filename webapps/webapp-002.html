@@ -1,0 +1,18 @@
+<script src="../scripts/webapp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.13.2/underscore-umd-min.js"></script>
+<script src="../scripts/lang-detector.js"></script>
+<script>
+    function detectLanguage() {
+        $("#result-language").html("Detected Language: <b>" + detectLang($("#snippet").val()) + "</b>");
+    }
+</script>
+<p class="text-light">Paste a code/snippet to detect the language.</p>
+<textarea class="form-control" id="snippet" rows="3"></textarea>
+<div class="row" style="margin-top: 10px; margin-bottom: 10px">
+    <div class="col-lg-6">
+        <p id="result-language"></p>
+    </div>
+    <div class="col-lg-6">
+        <button class="btn btn-sm btn-primary" style="float: right" onclick="detectLanguage()">Detect</button>
+    </div>
+</div>

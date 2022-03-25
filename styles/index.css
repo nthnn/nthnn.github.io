@@ -1,0 +1,59 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.banner { width: 80%; }
+.updates { width: 100%; }
+.text-content { margin: 0px 10px 0px 10px; }
+.margin { margin-left: 50px; }
+.card-panel, .about-me-info { margin-top: 10px; }
+.project-item { margin-top: 10px !important; }
+.load-notif { bottom: 0; position: fixed; }
+.screenshot-portrait-single { width: 20% !important; }
+.gallery { padding: 0 !important; margin: 0 !important; }
+.gallery-item { margin-top: 10px !important; }
+
+.screenshot-1 {
+    width: 100%;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.screenshot-1 img {
+    width: 80% !important;
+    justify-self: center !important;
+    align-content: center !important;
+}
+
+.screenshots-3 {
+    width: 65%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-self: center;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    clear: both;
+    display: grid;
+}
+
+.screenshots-3 .screenshot {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.screenshot img {
+    width: 95%;
+    align-self: center !important;
+    justify-self: center !important;
+    border: 1px solid white;
+}
+
+@media only screen and (min-width: 770px) {
+    .banner { width: 50%; }
+}

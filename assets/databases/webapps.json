@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "UUID Generator",
+        "description": "Generates a random UUID version 4 string.",
+        "path": "webapps/webapp-001.html"
+    },
+    {
+        "id": 2,
+        "name": "Programming Language Detector",
+        "description": "Simple webapp to detect the programming language of a code snippet.",
+        "path": "webapps/webapp-002.html"
+    },
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "description": "Efficient and effective password generator with few options.",
+        "path": "webapps/webapp-003.html"
+    },
+    {
+        "id": 4,
+        "name": "Planet Viewer",
+        "description": "A plain Solar System's 3D planet viewer.",
+        "path": "webapps/webapp-004.html"
+    },
+    {
+        "id": 5,
+        "name": "Astronomy Picture of the Day",
+        "description": "Shows an astronomy picture of the day with a description.",
+        "path": "webapps/webapp-005.html"
+    }
+]

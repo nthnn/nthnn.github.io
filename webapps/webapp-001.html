@@ -1,0 +1,15 @@
+<script src="../scripts/webapp.js"></script>
+<script>
+    function copyToClipboard(element) {
+        $(element).removeAttr("disabled");
+        $(element).select();
+        document.execCommand("copy");
+        document.getSelection().removeAllRanges();
+        $(element).attr("disabled", "");
+    }
+</script>
+<div class="input-group mb-3">
+    <button class="btn btn-sm btn-primary input-group-text" onclick="$('#output-uuid').val(generateUUIDv4())">Generate</button>
+    <input type="text" class="form-control" aria-label="UUID v4" id="output-uuid" disabled="">
+    <button class="btn btn-sm btn-primary input-group-text" onclick="copyToClipboard('#output-uuid')">Copy</button>
+</div>
