@@ -40,10 +40,7 @@
     <br/><br/><br/>
     <div class="container">
         <br/>
-        <div class="alert alert-dismissible alert-secondary">
-            <h4 class="alert-heading">My Projects</h4>
-            <p class="mb-0"><span class="margin"/>The list below are my recent projects (both released and underdevelopment). I won't be including my projects in the past, though.</p>
-        </div>
+        <div id="head"></div>
         <div class="container my-projects"></div>
 
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -52,19 +49,35 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts/param-search.js"></script>
     <script src="./scripts/image-view.js"></script>
     <script>
         $.getJSON("./assets/databases/projects.json", function(data) {
-            var content = "<div class=\"row\">";
+            var hasPageParam = false;
 
-            data.reverse();
-            for(var i = 0; i < data.length; i++) {
-                if(i % 2 == 0) content += "</div><div class=\"row\">";
-                content += "<div class=\"col-lg-6 card-panel project-item\"><div class=\"card border-secondary\" style=\"height: 100%\"><div class=\"card-header\"><b>" + data[i]["name"] + "</b><br/>&mdash; <i>" + data[i]["short_description"] + "</i></div><div class=\"card-body\">" + data[i]["description"] + "</div></div></div>";
+            function dumpProjects() {
+                var content = "<div class=\"row\">";
+                    
+                data.reverse();
+                for(var i = 0; i < data.length; i++) {
+                    if(i % 2 == 0) content += "</div><div class=\"row\">";
+                    content += "<div class=\"col-lg-6 card-panel project-item\"><div class=\"card border-secondary\" style=\"height: 100%\"><a href=\"/my-projects.html?id=" + data[i]["id"] + "\" style=\"text-decoration:none; color:white;\"><div class=\"card-header\"><b>" + data[i]["name"] + "</b><br/>&mdash; <i>" + data[i]["short_description"] + "</i></div></a><div class=\"card-body\">" + data[i]["description"] + "</div></div></div>";
+                }
+                content += "</div>";
+
+                $("#head").html("<div class=\"alert alert-dismissible alert-secondary\"><h4 class=\"alert-heading\">My Projects</h4><p class=\"mb-0\"><span class=\"margin\"/>The list below are my recent projects (both released and underdevelopment). I won't be including my projects in the past, though.</p></div>");
+                $(".my-projects").html(content);
             }
-            content += "</div>";
 
-            $(".my-projects").html(content);
+            searchParam("id", (id)=> {
+                for(var i = 0; i < data.length; i++)
+                    if(data[i]["id"] == id) {
+                        $(".my-projects").html("<div class=\"card-panel project-item\"><div class=\"card border-secondary\" style=\"height: 100%\"><div class=\"card-header\"><button style=\"float:right;\" type=\"button\" class=\"btn-close\" onclick=\"window.location.href='/my-projects.html';\"></button><b>" + data[i]["name"] + "</b><br/>&mdash; <i>" + data[i]["short_description"] + "</i></div><div class=\"card-body\">" + data[i]["description"] + "</div></div></div>");
+                        hasPageParam = true;
+                    }
+            });
+
+            if(!hasPageParam) dumpProjects();
         });
     </script>
     <script src="./scripts/uuidv4-gen.js"></script>

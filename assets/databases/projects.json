@@ -1,36 +1,36 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "akepalos.github.io",
         "short_description": "A website created just for fun.",
         "description": "<b>&#8227; About the Project</b><br/><p><span class=\"margin\"/>First and foremost, I just made <a target=\"_blank\" href=\"https://akepalos.github.io/\" class=\"link-info\">this website</a> for fun. This was inspired from a deep web myth I saw while browsing on the internet.</p><b>&#8227; Description</b><p><span class=\"margin\"/>Below are the screensots of the website itself.</p><div align=\"center\"><div align=\"center\" class=\"screenshots-3\"><div class=\"screenshot\"><img src=\"assets/screenshots/project_01_01.jpg\" onclick=\"installImageView(this.src, 'Web App\\'s Main Page')\"/><br/></div><div class=\"screenshot\"><img src=\"assets/screenshots/project_01_02.jpg\" onclick=\"installImageView(this.src, 'The Death Date and Time Calculator')\"/><br/></div><div class=\"screenshot\"><img src=\"assets/screenshots/project_01_03.jpg\" onclick=\"installImageView(this.src, 'Tarrot Consultation Section')\"/></div></div></div><p><span class=\"margin\"/>As can be seen above, the whole website has a very simplistic and minimalist design. It only contains two anchor links; which are (1) the death date and time calculator and (2) the tarot consultation.</p><p><span class=\"margin\"/>The death date and time calculator generates a date based on the letters of the input name. Meanwhile, the tarot consultation randomly shows tarot card.</p>"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "OTG-Nilboard",
         "short_description": "Android smartphone app to suppress the default keyboard.",
         "description": "<b>&#8227; About the App</b><br/><p><span class=\"margin\"/>This project is exclusively for Android smartphones only. I made this keyboard app that does nothing so that bluetooth and OTG physical keyboard users would be able to hide the Android phone's on-screen keyboard.<br/><span class=\"margin\"/>This keyboard literally does nothing and is purposively made for bluetooth and/or OTG keyboard users as mentioned previously.</p><div align=\"center\" class=\"screenshot-1 screenshot\"><img src=\"assets/screenshots/project_02_01.jpg\" width=\"80%\"onclick=\"installImageView(this.src, 'Selecting OTG-Nilboard as the default system keyboard')\"/></div><br/><b>&#8227; Download</b><br/><table class=\"download-table\"><tr><td><a href=\"./files/otg-nilboard/otg-nilboard.apk\" class=\"link-info\" download>otg-nilboard.apk</a></td><td><p>Unsigned APK file for Android devices. (Only tested on Android 9 to 11)</p></td></tr><tr><td><a href=\"./files/otg-nilboard/otg-nilboard-source.zip\" class=\"link-info\" download>otg-nilboard-source.zip</a></td><td><p>OTG-Nilboard's complete little complete code base compressed in a zip file.</p></td></tr></table>"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Lanzaplicación",
         "short_description": "Android launcher with a super minimalist and primitive-looking UI.",
         "description": "<b>&#8227; About the App</b><p><span class=\"margin\"/>This Android launcher is a super minimalist and primitive-looking UI made without any other intent. I made this app purely just for fun.</p><div align=\"center\" class=\"screenshot\"><img src=\"assets/screenshots/project_03_01.jpg\" class=\"screenshot-portrait-single\" onclick=\"installImageView(this.src, 'Lanzaplicación In Action')\"/></div><b>&#8227; Download</b><table class=\"download-table\"><tr><td><a href=\"./files/lanzaplicacion/lanzaplicacion.apk\" class=\"link-info\" download>lanzaplicacion.apk</a></td><td><p>Unsigned APK file for Android devices.</p></td></tr><tr><td><a href=\"./files/lanzaplicacion/lanzaplicacion-source.zip\" class=\"link-info\" download>lanzaplicacion-source.zip</a></td><td><p>Lanzaplicación's complete little complete code base compressed in a zip file.</p></td></tr></table>"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Nougat Programming Language",
         "short_description": "General-purpose dynamic scripting and programming language.",
         "description": "<b>&#8227; About the Language</b><p><span class=\"margin\"/>Nougat programming language is a general-purpose dynamic scripting and programming language. Nougat is a high-level language and is compiled just-in-time. This programming language is specially designed for coding dynamicism.<br/><br/><span class=\"margin\"/>Strictly designed with so much powerful expressiveness in writing programs and/or code, Nougat is also designed for amateurs. With little complexity, oneself can learn Nougat easily.<br/><br/><span class=\"margin\"/>Nougat programming language's now out! After almost four months of development full of discontinuities. Check it out here at: <a href=\"https://nougat.neocities.org/\" target=\"_blank\" class=\"link-info\">https://nougat.neocities.org/</a>.</p>"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "La Pregunta",
         "short_description": "A very short multi-platform visual novel game.",
         "description": "<b>&#8227; About the Project</b><p><span class=\"margin\"/>The storyline of this visual novel is just a re-written and modified version of &quot;The Question&quot; by Ren'py. However, this project is a manually-coded one. Also, the character designs are made by sutemo, check them out here at <a href=\"https://sutemo.itch.io/\" class=\"link-info\">sutemo.itch.io</a>.<br/><span class=\"margin\"/>The visual novel is currently available on Android and Windows devices. Download links below.</p><b>&#8227; Download</b><table class=\"download-table\"><tr><td><a href=\"https://www.mediafire.com/file/j5umivlyg4mp7l1/la-pregunta.apk/file\" target=\"_blank\" class=\"link-info\">la-pregunta.apk</a></td><td>Android APK (tested on Android 9 and above).</td></tr><tr><td><a href=\"https://www.mediafire.com/file/6l35j246wece4c4/La-Pregunta.msi/file\" target=\"_blank\" class=\"link-info\">La-Pregunta.msi</a></td><td>Windows Microsoft installer/set-up (32-bit)</td></tr></table><br/><div class=\"screenshot\" align=\"center\"><img src=\"assets/gallery/gallery-010.png\" width=\"100%\" onclick=\"installImageView(this.src, 'La Pregunta banner')\"/></div>"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "UrPh News",
         "short_description": "Minimalistic news outlet Android app.",
         "description": "<b>&#8227; About the Project</b><p><span class=\"margin\"/>Howdy! I've made this Android app that fetches updated and reliable news via NewsAPI.org. It has an easy-to-understand UI (also available in night mode), its own search feature, and an in-app browser to read news articles. &quot;UrPh News&quot; can now be downloaded from any of the links below</p><b>&#8227; Downloads</b><ul><li><a href=\"https://www.mediafire.com/file/sgtbnifowpz8opd/urph-news.apk/file\" target=\"_blank\" class=\"link-info\">Mirror 1</a></li><li><a href=\"https://drive.google.com/file/d/16X7jPRMsU49q0nzKfAVqb9kOCUzf73Jc/view\" target=\"_blank\" class=\"link-info\">Mirror 2</a></li><li><a href=\"https://mega.nz/file/XHgAWQYS#nwgbnRz2_aPiViR3bhCpP0tTm0AKsf6hKW4WFFnm0xI\" target=\"_blank\" class=\"link-info\">Mirror 3</a></li></ul><table><tr><td><div class=\"screenshot\"><img src=\"assets/screenshots/project_05_01.png\" onclick=\"installImageView(this.src, 'UrPh News')\"/></div></td><td><div class=\"screenshot\"><img src=\"assets/screenshots/project_05_02.png\" onclick=\"installImageView(this.src, 'UrPh News')\"/></div></td><td><div class=\"screenshot\"><img src=\"assets/screenshots/project_05_03.png\" onclick=\"installImageView(this.src, 'UrPh News')\"/></div></td><td><div class=\"screenshot\"><img src=\"assets/screenshots/project_05_04.png\" onclick=\"installImageView(this.src, 'UrPh News')\"/></div></td></tr></table><br/><b>&#8227; Post-scriptum</b><ul><li>I didn't take time through the development. Potential users might find features that don't exist in this app.</li><li>I made this hoping it would help to fight massive misinformation and fake news.</li><li>This Android app is not monetized; thus, it contains no ads.</li><li>The app might not work properly in older versions of Android, such as Nougat, Marshmallow, Lollipop, KitKat, etc.</li><li>This is not available on Google Playstore, since it requires one-time payment fee. Lol.</li><li>Lastly, updates might take a while.</li></ul>"
