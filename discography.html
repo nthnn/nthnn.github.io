@@ -48,7 +48,7 @@
             data.reverse();
             for(var i = 0; i < data.length; i++) {
                 if(i % 2 == 0) content += "</div><div class=\"row\">";
-                content += "<div class=\"col-lg-6\"><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/" + data[i] + "\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>";
+                content += "<div class=\"col-lg-6 yt-video\"><iframe width=\"100%\" src=\"https://www.youtube.com/embed/" + data[i] + "\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>";
             }
             content += "</div>";
 
