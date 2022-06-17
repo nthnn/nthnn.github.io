@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title>For my laloves</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body oncontextmenu="return false;">
+    <div id="splash-screen-layer"></div>
+    <div id="splash-screen"></div>
+
+    <div id="main">
+        <div class="container">
+            <div class="droplet" id="no1"></div>
+            <div class="droplet" id="no2"></div>
+            <div class="droplet" id="no3"></div>
+            <div class="droplet" id="no4"></div>
+            <div class="droplet" id="no5"></div>
+            <div class="droplet" id="no6"></div>
+            <div class="droplet" id="no7"></div>
+            <div class="droplet" id="no8"></div>
+            <div class="droplet" id="no9"></div>
+            <div class="droplet" id="no10"></div>
+        </div>
+        <div id="message" class="draggable">
+            <p id="message-txt"></p>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <script type="module">
+        import interact from "https://cdn.interactjs.io/v1.10.14/interactjs/index.js";
+
+        interact('.draggable').draggable({
+            inertia: true,
+            modifiers: [
+                interact.modifiers.restrictRect({
+                    restriction: 'parent',
+                    endOnly: true
+                })
+            ],
+            autoScroll: true,
+            listeners: { move: dragMoveListener }
+        });
+
+        function dragMoveListener(event) {
+            var target = event.target;
+            var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+            var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+            target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+            target.setAttribute('data-x', x);
+            target.setAttribute('data-y', y);
+        }
+
+        window.dragMoveListener = dragMoveListener;
+    </script>
+    <script>
+        window.onload = ()=> {
+            document.getElementById("splash-screen").classList.toggle("fade-in");
+
+            setTimeout(()=> {
+                document.getElementById("splash-screen").classList.toggle("fade-out");
+                document.getElementById("splash-screen-layer").classList.toggle("fade-out");
+            }, 3000);
+
+            setTimeout(()=> {
+                document.getElementById("splash-screen").style.display = "none";
+                document.getElementById("splash-screen-layer").style.display = "none";
+
+                var tw = new Typewriter(document.getElementById("message-txt"), { loop: true });
+
+                tw.typeString("Hi, Jisibol mah wan en onli. 😘 I've been meaning to do this. Hihe. Sorry kung hindi kita binigyan ng flowers back then. 😞").pauseFor(1000).deleteAll()
+                    .typeString("Sorry din kung gantong animated flower lang for now. 😞").pauseFor(2000).deleteAll()
+                    .typeString("Tsaka ano... hihe, you've been working hard. 😤 Imma tell you just so you know, I've been rooting and will always be rooting for you. 😁").pauseFor(2000).deleteAll()
+                    .typeString("'Di ko alam kung anong kasalanan ko kadalasan, pero sorry. 😔 Sabihin mo lang sa'kin kapag may kasalanan me.").pauseFor(2000).deleteAll()
+                    .typeString("Hindi ko alam kung ano pa gusto ko sabihin. 😭").pauseFor(2000).deleteAll()
+                    .typeString("I love you.").pauseFor(2000).typeString(" 😳 Mwahh").start();
+            }, 6000);
+        };
+    </script>
+</body>
+</html>
