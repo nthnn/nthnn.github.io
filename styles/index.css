@@ -8,12 +8,10 @@
 }
 
 .banner { width: 80%; }
-.updates { width: 100%; }
 .text-content { margin: 0px 10px 0px 10px; }
 .margin { margin-left: 50px; }
 .card-panel, .about-me-info { margin-top: 10px; }
 .project-item { margin-top: 10px !important; }
-.load-notif { bottom: 0; position: fixed; }
 .screenshot-portrait-single { width: 20% !important; }
 .gallery { padding: 0 !important; margin: 0 !important; }
 .gallery-item { margin-top: 10px !important; }
@@ -72,5 +70,4 @@
 
 @media only screen and (min-width: 770px) {
     .banner { width: 50%; }
-    .yt-video iframe { height: 50%; }
 }

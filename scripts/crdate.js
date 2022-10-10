@@ -1,0 +1,1 @@
+$("#copy-year").text(new Date().getFullYear());
