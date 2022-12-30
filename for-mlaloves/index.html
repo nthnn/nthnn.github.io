@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+	<title>For M'Laloves</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+	<style>
+		* {
+			overflow: hidden;
+			margin: 0px;
+		}
+		
+		html, body {
+			margin: 0;
+			height: 100%;
+		}
+
+		#canvas {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		
+		#message-div {
+			position: absolute;
+			bottom: 30px;
+			left: 5%;
+			right: 5%;
+		}
+		
+		#message-card {
+			font-family: 'Amatic SC';
+			color: white;
+			padding: 12px;
+			height: auto;
+			width: auto;
+			z-index: 9999;
+		}
+		
+		#message-card sub, #message-card h3 {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+
+	<div id="message-div">
+		<div id="message-card">
+			<h1>Pretty 3D flower for my super pretty girlfriend.</h1><br/>
+			<sub>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</sub><br/><br/>
+			<h3>-nthnn</h3><br/>
+		</div>
+	</div>
+
+	<script type="module">
+		import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/build/three.module.js';
+		import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/controls/OrbitControls.js';
+		import {OBJLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/loaders/OBJLoader.js';
+		import {MTLLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/loaders/MTLLoader.js';
+
+		function main() {
+			const canvas = document.querySelector('#canvas'), renderer = new THREE.WebGLRenderer({canvas});
+			const fov = 45, aspect = 2, near = 0.1, far = 100;
+
+			const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+			camera.position.set(0, 10, 20);
+
+			const controls = new OrbitControls(camera, canvas);
+			controls.target.set(0, 5, 0);
+			controls.autoRotate = true;
+			controls.autoRotateSpeed = 7;
+			controls.update();
+
+			const scene = new THREE.Scene();
+			scene.background = new THREE.Color('black');
+			scene.add(new THREE.HemisphereLight(0xB1E1FF, 0xB97A20, 1));
+
+			{
+				const light = new THREE.DirectionalLight(0xFFFFFF, 1);
+				light.position.set(5, 10, 2);
+
+				scene.add(light);
+				scene.add(light.target);
+			}
+
+			function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
+				const halfSizeToFitOnScreen = sizeToFitOnScreen * 0.5;
+				const halfFovY = THREE.MathUtils.degToRad(camera.fov * .5);
+				const distance = halfSizeToFitOnScreen / Math.tan(halfFovY);
+				const direction = (new THREE.Vector3()).subVectors(camera.position, boxCenter).multiply(new THREE.Vector3(1, 0, 1)).normalize();
+
+				camera.position.copy(direction.multiplyScalar(distance).add(boxCenter));
+				camera.updateProjectionMatrix();
+				camera.lookAt(boxCenter.x, boxCenter.y, boxCenter.z);
+			}
+
+			{
+				const mtlLoader = new MTLLoader();
+				mtlLoader.load('tulip/tulip.mtl', (mtl) => {
+					mtl.preload();
+
+					const objLoader = new OBJLoader();
+					objLoader.setMaterials(mtl);
+					objLoader.load('tulip/tulip.obj', (root) => {
+						scene.add(root);
+						root.rotation.x = -120;
+
+						const box = new THREE.Box3().setFromObject(root);
+						const boxSize = box.getSize(new THREE.Vector3()).length();
+						const boxCenter = box.getCenter(new THREE.Vector3());
+
+						frameArea(boxSize * 1.2, boxSize, boxCenter, camera);
+						controls.maxDistance = boxSize * 10;
+						controls.target.copy(boxCenter);
+						controls.update();
+					});
+				});
+			}
+
+			function resizeRendererToDisplaySize(renderer) {
+				const canvas = renderer.domElement, width = canvas.clientWidth, height = canvas.clientHeight, needResize = canvas.width !== width || canvas.height !== height;
+
+				if(needResize)
+					renderer.setSize(width, height, false);
+				return needResize;
+			}
+
+			function render() {
+				if(resizeRendererToDisplaySize(renderer)) {
+					const canvas = renderer.domElement;
+					camera.aspect = canvas.clientWidth / canvas.clientHeight;
+					camera.updateProjectionMatrix();
+				}
+
+				renderer.render(scene, camera);
+				requestAnimationFrame(render);
+				controls.update();
+			}
+
+			requestAnimationFrame(render);
+		}
+
+		main();
+	</script>
+</body>
+</html>
