@@ -1,0 +1,76 @@
+.banner { width: 45%; }
+
+.fnd-logo img {
+	transition: all 0.3s ease-in-out;
+}
+
+.fnd-logo img:hover {
+	transform: scale(1.1) translateZ(0);
+}
+
+.services col-lg-4 {
+    padding: 12px;
+}
+
+.services .service {
+    transition: transform .4s;
+    background-color: white;
+    color: black;
+}
+
+.services .service:hover {
+    transform: scale(1.05);
+}
+
+.service-img-1, .service-img-3 {
+	transition: all 0.8s ease-in-out;
+}
+
+.service-img-2 {
+	transition: all 0.3s ease-in-out;
+}
+
+.service-img-1:hover {
+	transform: rotate(45deg) scale(0.7);
+}
+
+.service-img-3:hover {
+	transform: rotate(-45deg) scale(0.7);
+}
+
+.service-img-2:hover {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.buy-me-a-coffee .buy-me-a-coffee-clouds {
+    transition: transform .4s;
+}
+
+.buy-me-a-coffee:hover .buy-me-a-coffee-clouds {
+    animation-name: floating-sideways;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 771px) {
+	.navbar-brand { opacity: 1; }
+
+	.banner { width: 75%; }
+
+	.image-between {
+		margin-bottom: 24px;
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 770px) {
+	.card-btn { float: right; }
+
+    .navbar-brand { display: none; }
+
+	.image-between { margin-right: 12px; }
+}
