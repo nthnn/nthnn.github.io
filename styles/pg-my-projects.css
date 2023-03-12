@@ -1,0 +1,24 @@
+.form .lni {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #9ca3af;
+}
+
+.form-input, .form-input:focus {
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    text-indent: 33px;
+}
+
+.form-input:active {
+    background-color: var(--bg-dark);
+}
+
+@media only screen and (max-width: 771px) {
+    .filter-btn-div {
+        display: flex;
+        float: right;
+        justify-content: right;
+    }
+}

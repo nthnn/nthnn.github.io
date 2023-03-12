@@ -13,13 +13,8 @@
 }
 
 .services .service {
-    transition: transform .4s;
     background-color: white;
     color: black;
-}
-
-.services .service:hover {
-    transform: scale(1.05);
 }
 
 .service-img-1, .service-img-3 {
@@ -30,15 +25,15 @@
 	transition: all 0.3s ease-in-out;
 }
 
-.service-img-1:hover {
+.service:hover .service-img-1 {
 	transform: rotate(45deg) scale(0.7);
 }
 
-.service-img-3:hover {
+.service:hover .service-img-3 {
 	transform: rotate(-45deg) scale(0.7);
 }
 
-.service-img-2:hover {
+.service:hover .service-img-2 {
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

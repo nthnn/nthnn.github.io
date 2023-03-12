@@ -5,8 +5,9 @@
     -ms-user-select: none;
 }
 
-body {
-	overflow-x: hidden;
+html, body {
+	margin: 0;
+	padding: 0;
 }
 
 html::-webkit-scrollbar {
@@ -20,6 +21,10 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
     background-color: var(--bs-primary);
     background-image: linear-gradient(to bottom, var(--bs-primary) 0%, var(--bs-secondary) 50%, var(--bs-primary) 100%);
+}
+
+body {
+	overflow-x: hidden;
 }
 
 .header .container a {
