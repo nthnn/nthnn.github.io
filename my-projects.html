@@ -10,6 +10,7 @@
 
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
     <link href="./styles/bootstrap.css" rel="stylesheet" />
+    <link href="./styles/animate.min.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
     <link href="./styles/pg-my-projects.css" rel="stylesheet" />
 
@@ -20,12 +21,52 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
+                    <h4 class="modal-title">Filter Projects</h4>
                     <button class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
                 <div class="modal-body">
-                    Modal body..
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="all">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-code"></i> All</div>
+                            </label>
+                            
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="apps">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-android"></i> Apps</div>
+                            </label>
+                            
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="software">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-cog"></i> Software</div>
+                            </label>        
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="games">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-game"></i> Games</div>
+                            </label>
+
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="website">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-link"></i> Website</div>
+                            </label>
+                            
+                            <label class="rad-label">
+                                <input type="radio" class="rad-input" name="rad" value="software">
+                                <div class="rad-design"></div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-infinite"></i> Circuitry</div>
+                            </label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,7 +93,7 @@
 
     <br/><br/><br/>
     <div class="container container">
-        <div class="card border-secondary transparent-card">
+        <div class="card border-secondary transparent-card animate__animated animate__zoomIn">
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -105,7 +146,7 @@
                             </div>
 
                             <div class="col-lg-3 filter-btn-div">
-                                <a class="btn btn-reactive-a btn-reactive" data-bs-toggle="modal" data-bs-target="#filter-modal"><div class="i-wrapper"><i class="lni lni-list no-rotate text-white"></i></div> <span class="lead">Filter Project</span></a>
+                                <a class="btn btn-reactive-a btn-reactive" data-bs-toggle="modal" data-bs-target="#filter-modal"><div class="i-wrapper"><i class="lni lni-list no-rotate text-white"></i></div> <span class="lead">Filter Projects</span></a>
                             </div>
                         </div>
                     </center>
@@ -114,9 +155,7 @@
                         <br/>
                     </div>
 
-                    <div class="card border-secondary">
-                        <br/>
-                    </div>
+                    <div id="projects"></div>
                 </div>
 
                 <div class="col-lg-2"></div>
@@ -130,7 +169,7 @@
                     <div class="me-5 d-none d-lg-block">
                         <span>Get connected with me now at:</span>
                     </div>
-        
+
                     <div>
                         <a href="https://twitter.com/nathannestein" class="ic-link" target="_blank" class="ic-link me-4 text-reset"><i class="lni lni-twitter"></i></a>
                         <a href="https://instagram.com/nathannestein" class="ic-link" target="_blank" class="ic-link me-4 text-reset"><i class="lni lni-instagram"></i></a>
@@ -145,4 +184,5 @@
     <script src="./scripts/jquery.min.js"></script>
     <script src="./scripts/bootstrap.bundle.min.js"></script>
     <script src="./scripts/global.js"></script>
+    <script src="./scripts/pg-my-projects.js"></script>
 </body>

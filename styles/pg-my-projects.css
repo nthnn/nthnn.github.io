@@ -15,6 +15,70 @@
     background-color: var(--bg-dark);
 }
 
+.rad-label {
+    display: flex;
+    align-items: center;
+  
+    border-radius: 100px;
+    padding: 14px 16px;
+    margin: 10px 0;
+  
+    cursor: pointer;
+    transition: .3s;
+}
+  
+.radio-btn-label:hover, .radio-btn-label:focus-within {
+    background: rgb(40, 144, 241);
+}
+  
+.radio-btn-input {
+    position: absolute;
+    margin-right: 20px !important;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+}
+  
+.radio-btn-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    position: relative;
+}
+  
+.radio-btn-design::before {
+    content: '';
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    transform: scale(1.1);
+    transition: .3s;
+}
+  
+.radio-btn-input:checked+.rad-design::before {
+    transform: scale(0);
+}
+  
+.radio-btn-text {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.gap {
+    margin: 4px;
+}
+
+.read-btn {
+    float: right;
+}
+
 @media only screen and (max-width: 771px) {
     .filter-btn-div {
         display: flex;

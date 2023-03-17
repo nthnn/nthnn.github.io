@@ -31,12 +31,16 @@ body {
     display: inline-block;
 }
 
-.nav-link, .ic-link, .hl-text, #what {
+.nav-link, .ic-link, .hl-text, #what, .no-underline, .shimmer-with-hover {
 	transition: all 0.3s 0.1s ease-in;
 }
 
-.nav-link:hover, .ic-link:hover, .hl-text:hover, #what:hover {
+.nav-link:hover, .ic-link:hover, .hl-text:hover, #what:hover, .shimmer-with-hover:hover {
 	color: rgb(40, 144, 241);
+}
+
+.no-underline {
+	text-decoration: none;
 }
 
 .astrowhale {
