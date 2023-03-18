@@ -21,11 +21,6 @@
   src: url("../font/nasalization-rg.otf");
 }
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../font/montserrat-regular.otf");
-}
-
 :root {
   --bs-blue: #007bff;
   --bs-indigo: #6610f2;

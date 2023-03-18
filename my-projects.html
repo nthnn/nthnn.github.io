@@ -26,22 +26,22 @@
                 </div>
 
                 <div class="modal-body">
-                    <div class="row">
+                    <div class="row" id="categories">
                         <div class="col-lg-6">
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="all">
+                                <input type="radio" class="rad-input" name="category" value="category" checked>
                                 <div class="rad-design"></div>
                                 <div class="rad-text"><span class="gap"></span><i class="lni lni-code"></i> All</div>
                             </label>
                             
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="apps">
+                                <input type="radio" class="rad-input" name="category" value="app">
                                 <div class="rad-design"></div>
                                 <div class="rad-text"><span class="gap"></span><i class="lni lni-android"></i> Apps</div>
                             </label>
                             
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="software">
+                                <input type="radio" class="rad-input" name="category" value="software">
                                 <div class="rad-design"></div>
                                 <div class="rad-text"><span class="gap"></span><i class="lni lni-cog"></i> Software</div>
                             </label>        
@@ -49,24 +49,28 @@
 
                         <div class="col-lg-6">
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="games">
+                                <input type="radio" class="rad-input" name="category" value="game">
                                 <div class="rad-design"></div>
                                 <div class="rad-text"><span class="gap"></span><i class="lni lni-game"></i> Games</div>
                             </label>
 
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="website">
+                                <input type="radio" class="rad-input" name="category" value="website">
                                 <div class="rad-design"></div>
                                 <div class="rad-text"><span class="gap"></span><i class="lni lni-link"></i> Website</div>
                             </label>
                             
                             <label class="rad-label">
-                                <input type="radio" class="rad-input" name="rad" value="software">
+                                <input type="radio" class="rad-input" name="category" value="firmware">
                                 <div class="rad-design"></div>
-                                <div class="rad-text"><span class="gap"></span><i class="lni lni-infinite"></i> Circuitry</div>
+                                <div class="rad-text"><span class="gap"></span><i class="lni lni-infinite"></i> Firmware</div>
                             </label>
                         </div>
                     </div>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn-reactive-a"><button class="btn-reactive btn-lg" data-bs-dismiss="modal"><div class="i-wrapper"><i class="lni lni-close no-rotate"></i></div><span class="lead">Apply Selected</span></button></a>
                 </div>
             </div>
         </div>
@@ -93,7 +97,7 @@
 
     <br/><br/><br/>
     <div class="container container">
-        <div class="card border-secondary transparent-card animate__animated animate__zoomIn">
+        <div class="card border-secondary animate__animated animate__zoomIn">
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-1"></div>
@@ -132,12 +136,14 @@
 
                 <div class="col-lg-8">
                     <br/>
-                    <center class="bg-dark">
+                    <div align="center">
                         <div class="row">
                             <div class="col-lg-9">
-                                <div class="form">
-                                    <i class="lni lni-magnifier"></i>
-                                    <input type="text" class="form-control form-input border-primary" placeholder="Search a project...">
+                                <div class="input-group form">
+                                    <span class="input-group-append">
+                                        <i class="lni lni-magnifier"></i>
+                                    </span>
+                                    <input class="form-control form-input border-primary rounded-pill" type="text" placeholder="Search a project..." id="filter">
                                 </div>
 
                                 <div class="desktop-break">
@@ -149,13 +155,38 @@
                                 <a class="btn btn-reactive-a btn-reactive" data-bs-toggle="modal" data-bs-target="#filter-modal"><div class="i-wrapper"><i class="lni lni-list no-rotate text-white"></i></div> <span class="lead">Filter Projects</span></a>
                             </div>
                         </div>
-                    </center>
+                    </div>
 
                     <div class="mobile-break">
                         <br/>
                     </div>
 
-                    <div id="projects"></div>
+                    <div id="projects">
+                        <div align="center">
+                            <br/><br/>
+                            <img src="./assets/images/gif_loading.gif" width="80" />
+                            <br/><br/>
+                            <h5 class="shimmer">Loading...</h5>
+                            <br/><br/>
+                        </div>
+                    </div>
+
+                    <div id="no-projects-found" class="d-none">
+                        <div class="container col-lg-6" align="center">
+                            <div class="card card-body border-secondary bg-light text-dark">
+                                <div align="center">
+                                    <img src="./assets/images/img_planet.png" width="60%" />
+                                    <br/><br/>
+                                    <h5>No projects found.</h5>
+                                    <br/>
+                                    <p>There are no matching result for the applied filter.</p>
+                                    <br/>
+                                </div>
+                            </div>
+
+                            <br/>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-lg-2"></div>
