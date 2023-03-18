@@ -60,6 +60,16 @@
 		margin-bottom: 24px;
 		display: block;
 	}
+
+	.services .service {
+		margin-left: 14px;
+		margin-right: 14px;
+	}
+
+	.testimonials .col-lg-4 {
+		padding-left: 22px;
+		padding-right: 22px;
+	}
 }
 
 @media only screen and (min-width: 770px) {
