@@ -1,0 +1,99 @@
+.row {
+    margin-bottom: 24px;
+}
+
+.col-lg-4 {
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    position: relative;
+}
+
+.col-lg-4 > :not(span) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+}
+
+.col-lg-4 span {
+    position: absolute;
+    padding: 12px;
+    font-size: 1.1em;
+    font-family: 'Nasalization';
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 500ms;
+    display: flex;
+    opacity: 0;
+}
+
+.col-lg-4 img {
+    transition: transform .5s;
+}
+
+.col-lg-4:hover img {
+    transform: scale(1.1);
+}
+
+.col-lg-4 .date {
+    display: none;
+    transition: all 500ms;
+}
+
+.col-lg-4:hover .date {
+    padding: 0px;
+    width: 100% !important;
+    position: absolute;
+    color: white;
+    display: flex;
+    bottom: 5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.col-lg-4:hover span {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    opacity: 1;
+    top: 0;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+  
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s alternate;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .row { margin-bottom: 0px; }
+}

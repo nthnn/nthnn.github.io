@@ -102,12 +102,12 @@
 
 			{
 				const mtlLoader = new MTLLoader();
-				mtlLoader.load('tulip/tulip.mtl', (mtl) => {
+				mtlLoader.load('./for-mlaloves/tulip/tulip.mtl', (mtl) => {
 					mtl.preload();
 
 					const objLoader = new OBJLoader();
 					objLoader.setMaterials(mtl);
-					objLoader.load('tulip/tulip.obj', (root) => {
+					objLoader.load('./for-mlaloves/tulip/tulip.obj', (root) => {
 						scene.add(root);
 						root.rotation.x = -120;
 

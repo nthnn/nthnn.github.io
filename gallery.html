@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="nthnn's Official Website" />
+    <meta name="keywords" content="nthnn" />
+    <meta name="author" content="nthnn, nathannestein" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>nthnn | Gallery</title>
+
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <link href="./styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="./styles/baguetteBox.min.css" rel="stylesheet" />
+    <link href="./styles/animate.min.css" rel="stylesheet" />
+    <link href="./styles/global.css" rel="stylesheet" />
+    <link href="./styles/pg-gallery.css" rel="stylesheet" />
+
+    <link href="./assets/images/favicon.ico" rel="shortcut icon" />
+</head>
+<body class="astrowhale">
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+            <div class="container-fluid">
+                <a class="display-5 navbar-brand" href="#">nthnn</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="navcontent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex d-block flex-row mx-md-auto mx-0">
+                        <a class="nav-link mx-3" href="index.html"><i class="lni lni-home"></i> Home</a>
+                        <a class="nav-link mx-3" href="my-projects.html"><i class="lni lni-rocket"></i> My Projects</a>
+                        <a class="nav-link mx-3 active" href="#"><i class="lni lni-display"></i> Gallery</a>
+                        <a class="nav-link mx-3" href="about-me.html"><i class="lni lni-user"></i> About Me</a>
+                        <a class="nav-link mx-3" href="commission.html"><i class="lni lni-signal"></i> Commission</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br/><br/><br/>
+    <div class="container container">
+        <div class="card border-secondary animate__animated animate__zoomIn">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+    
+                    <div class="col-lg-10">
+                        <br/>
+                        <h2 class="shimmer">Gallery</h2>
+                        <br/>
+
+                        <p>Welcome to my Gallery! This is where I showcase some of my favorite works and creative projects. From photography to graphic design to mixed media art, you'll find a variety of pieces here that reflect my personal style and interests.</p>
+                        <p>Each piece has its own story and inspiration behind it, and I hope you'll enjoy exploring them as much as I enjoyed creating them. Whether you're looking for inspiration for your own projects or simply appreciate the beauty of art, I invite you to take a look around and see what catches your eye.</p>
+                        <p>Thank you for visiting my Gallery, and I hope you'll come back soon to see what's new!</p>
+
+                        <div class="desktop-break">
+                            <br/>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/>
+
+    <center>
+        <br/>
+        <div class="container">
+            <div class="gallery-container"></div>
+        </div>
+
+        <div id="error-message" class="d-none">
+            <div class="container col-lg-3" align="center">
+                <div class="card card-body border-secondary bg-light text-dark">
+                    <div align="center">
+                        <img src="./assets/images/img_planet.png" width="60%" />
+                        <br/><br/>
+                        <h5>Cannot load gallery.</h5>
+                        <br/>
+                        <p>Something went wrong while trying to fetch data.</p>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+    </center>
+    
+    <div class="bg-dark">
+        <br/>
+        <hr/>
+        <footer class="text-center text-lg-start">
+            <div class="container">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with me now at:</span>
+                    </div>
+    
+                    <div>
+                        <a href="https://twitter.com/nathannestein" class="ic-link" target="_blank" class="ic-link me-4 text-reset"><i class="lni lni-twitter"></i></a>
+                        <a href="https://instagram.com/nathannestein" class="ic-link" target="_blank" class="ic-link me-4 text-reset"><i class="lni lni-instagram"></i></a>
+                    </div>
+                </section>
+            
+                <div class="text-center p-4">Copyright &copy; <span id="copy-year"></span> &mdash; <b>nthnn</b>.<br/>Astrowhale Illustration Copyright &copy; <span id="copy-year"></span> &mdash; <b>Lady Selene</b>.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/baguetteBox.min.js"></script>
+    <script src="./scripts/global.js"></script>
+    <script src="./scripts/pg-gallery.js"></script>
+</body>
+</html>

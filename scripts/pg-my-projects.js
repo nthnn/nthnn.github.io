@@ -34,4 +34,5 @@ $.getJSON("./assets/database/projects.json", (data)=> {
     });
 }).fail(()=> {
     $("#projects").addClass("d-none");
+    $("#cannot-load").removeClass("d-none").addClass("animate__animated animate__fadeIn");
 });
