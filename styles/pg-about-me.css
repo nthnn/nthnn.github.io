@@ -1,0 +1,28 @@
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.my-pic-col {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.my-pic {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    transform-origin: 50% 50%;
+}
+
+.my-pic:hover {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+@media only screen and (max-width: 771px) {
+    .my-pic {
+        width: 88%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+}
