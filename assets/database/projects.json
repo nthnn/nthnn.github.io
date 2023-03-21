@@ -4,7 +4,7 @@
         "title": "akepalos.github.io",
         "short_description": "A website created just for fun.",
         "description": "I've made this website just for fun. This was inspired from the deep web myth I saw while browsing on the internet.",
-        "thumbnail": "assets/thumbnails/project_01.png",
+        "thumbnail": "project_01",
         "category": ["website"]
     },
     {
@@ -12,7 +12,7 @@
         "title": "OTG-Nilboard",
         "short_description": "Android app to suppress the default keyboard.",
         "description": "OTG-Nilboard keyboard literally does nothing and is purposively made for bluetooth or OTG keyboard users.",
-        "thumbnail": "assets/thumbnails/project_02.png",
+        "thumbnail": "project_02",
         "category": ["app"]
     },
     {
@@ -20,7 +20,7 @@
         "title": "Lanzaplicacion",
         "short_description": "Android launcher with minimalist UI.",
         "description": "Super minimalist and primitive-looking UX made without any other intent. I've made this app purely just for fun.",
-        "thumbnail": "assets/thumbnails/project_03.png",
+        "thumbnail": "project_03",
         "category": ["app"]
     },
     {
@@ -28,7 +28,7 @@
         "title": "Nougat",
         "short_description": "Dynamic programming language.",
         "description": "Nougat programming language is a general-purpose dynamic scripting and programming language.",
-        "thumbnail": "assets/thumbnails/project_04.png",
+        "thumbnail": "project_04",
         "category": ["software"]
     },
     {
@@ -36,7 +36,7 @@
         "title": "La Pregunta",
         "short_description": "A very short multi-platform visual novel game.",
         "description": "A very-short multiplatform visual novel game I've made based on an example story by Ren'Py.",
-        "thumbnail": "assets/thumbnails/project_05.png",
+        "thumbnail": "project_05",
         "category": ["software", "app", "game"]
     },
     {
@@ -44,7 +44,7 @@
         "title": "UrPh News",
         "short_description": "Minimalistic news outlet Android app.",
         "description": "Just another news outlet app that uses NewsAPI to fetch reliable and updated news in the Philippines in an oversimplified way.",
-        "thumbnail": "assets/thumbnails/project_06.png",
+        "thumbnail": "project_06",
         "category": ["app"]
     },
     {
@@ -52,7 +52,7 @@
         "title": "Fakfak",
         "short_description": "A fun 2D game inspired from Flappy Bird.",
         "description": "My very first game development collaboration with <a href=\"https://www.instagram.com/lady.selenee/\" target=\"_blank\" class=\"text-reset\">Lady Selene</a>. Heavily inspired from the famous game called &quot;Flappy Bird.&quot;",
-        "thumbnail": "assets/thumbnails/project_07.png",
+        "thumbnail": "project_07",
         "category": ["app", "game"]
     },
     {
@@ -60,7 +60,7 @@
         "title": "PVault",
         "short_description": "Secure Android user-friendly password vault.",
         "description": "PVault is an Android application with a simple yet secure way to store and manage your passwords.",
-        "thumbnail": "assets/thumbnails/project_08.png",
+        "thumbnail": "project_08",
         "category": ["app"]
     },
     {
@@ -68,7 +68,7 @@
         "title": "SLaunch",
         "short_description": "Simple yet aesthetic interactive launcher.",
         "description": "SLaunch is the most simple yet aesthetic-looking interactive Android application launcher with for real fluid UI and UX.",
-        "thumbnail": "assets/thumbnails/project_09.png",
+        "thumbnail": "project_09",
         "category": ["app"]
     }
 ]
