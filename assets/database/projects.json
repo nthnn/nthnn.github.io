@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Nougat",
-        "short_description": "Dynamic scripting and programming language.",
+        "short_description": "Dynamic programming language.",
         "description": "Nougat programming language is a general-purpose dynamic scripting and programming language.",
         "thumbnail": "assets/thumbnails/project_04.png",
         "category": ["software"]
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "title": "PVault",
-        "short_description": "A secure Android user-friendly password vault.",
+        "short_description": "Secure Android user-friendly password vault.",
         "description": "PVault is an Android application with a simple yet secure way to store and manage your passwords.",
         "thumbnail": "assets/thumbnails/project_08.png",
         "category": ["app"]

@@ -5,6 +5,10 @@
     -ms-user-select: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -74,6 +78,11 @@ body {
 	background-color: rgba(58, 63, 68, 0.6);
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
+}
+
+.transparent-card {
+	border: 0px;
+	border-radius: 0px;
 }
 
 .btn-reactive-a {
