@@ -57,18 +57,24 @@
     },
     {
         "id": 8,
-        "title": "PVault",
-        "short_description": "Secure Android user-friendly password vault.",
-        "description": "PVault is an Android application with a simple yet secure way to store and manage your passwords.",
+        "title": "j9n8.github.io",
         "thumbnail": "project_08",
-        "category": ["app"]
+        "category": ["app", "game", "website"]
     },
     {
         "id": 9,
+        "title": "PVault",
+        "short_description": "Secure Android user-friendly password vault.",
+        "description": "PVault is an Android application with a simple yet secure way to store and manage your passwords.",
+        "thumbnail": "project_09",
+        "category": ["app"]
+    },
+    {
+        "id": 10,
         "title": "SLaunch",
         "short_description": "Simple yet aesthetic interactive launcher.",
         "description": "SLaunch is the most simple yet aesthetic-looking interactive Android application launcher with for real fluid UI and UX.",
-        "thumbnail": "project_09",
+        "thumbnail": "project_10",
         "category": ["app"]
     }
 ]
