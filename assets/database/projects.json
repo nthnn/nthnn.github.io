@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "La Pregunta",
-        "short_description": "A very short multi-platform visual novel game.",
+        "short_description": "A very short multi-platform visual novel.",
         "description": "A very-short multiplatform visual novel game I've made based on an example story by Ren'Py.",
         "thumbnail": "project_05",
         "category": ["software", "app", "game"]
@@ -58,6 +58,8 @@
     {
         "id": 8,
         "title": "j9n8.github.io",
+        "short_description": "A team of two game developers.",
+        "description": "Our team aims to explore, grow, create, learn, and develop fun games everyone can enjoy and apps everyone can use.",
         "thumbnail": "project_08",
         "category": ["app", "game", "website"]
     },
@@ -76,5 +78,13 @@
         "description": "SLaunch is the most simple yet aesthetic-looking interactive Android application launcher with for real fluid UI and UX.",
         "thumbnail": "project_10",
         "category": ["app"]
+    },
+    {
+        "id": 11,
+        "title": "Musiccini",
+        "short_description": "Arduino Ultra-lightweight Music Synthesis",
+        "description": "Musiccini is intended to be super duper lightweight library for synthesizing music in Arduino with a buzzer.",
+        "thumbnail": "project_11",
+        "category": ["firmware"]
     }
 ]

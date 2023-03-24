@@ -10,6 +10,7 @@
     <link href="./styles/bootstrap.min.css" rel="stylesheet" />
     <link href="./styles/baguetteBox.min.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
+    <link href="./styles/pg-view.css" rel="stylesheet" />
 
     <link href="./assets/images/favicon.ico" rel="shortcut icon" />
 </head>
@@ -35,7 +36,6 @@
 
     <br/><br class="desktop-break"/>
     <div class="container main-section">
-        
     </div>
 
     <br/><hr/>
@@ -60,6 +60,11 @@
     <script src="./scripts/bootstrap.bundle.min.js"></script>
     <script src="./scripts/baguetteBox.min.js"></script>
     <script src="./scripts/global.js"></script>
-    <script src="./scripts/pg-view.js"></script>
+    <script>
+        baguetteBox.run(".main-section", {
+            animation: 'fadeIn',
+            noScrollBars: true,
+        });
+    </script>
 </body>
 </html>

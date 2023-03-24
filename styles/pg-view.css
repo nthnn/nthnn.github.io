@@ -1,0 +1,9 @@
+.project-banner {
+    width: 50%;
+}
+
+@media only screen and (max-width: 771px) {
+    .project-banner {
+        width: 100%;
+    }
+}
