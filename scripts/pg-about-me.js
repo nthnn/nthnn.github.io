@@ -1,13 +1,8 @@
 TagCloud(".sphere", [
-    "Arduino", "Espressif",
-    "C#", "Java", "PHP",
-    "HTML", "CSS", "Bootstrap",
-    "jQuery", "SQL", "JavaScript",
-    "C", "C++", "Swing",
-    "Visual Studio", "InteliJ",
-    "Android Studio", "NetBeans",
-    "AVR PIC", "Adafruit",
-    "XAMPP"
+    "Arduino", "Espressif", "AVR PIC", "Adafruit",
+    "C#", "Java", "PHP", "C", "C++", "Swing",
+    "HTML", "CSS", "Bootstrap", "jQuery", "SQL", "JavaScript", "ElectronJS",
+    "Visual Studio", "InteliJ", "Android Studio", "NetBeans", "XAMPP"
 ], {
     radius: 130,
     maxSpeed: 'normal',
@@ -16,6 +11,4 @@ TagCloud(".sphere", [
     keep: true
 });
 
-$("#certificate").on("change", ()=> {
-    $("#certificate-iframe").attr("src", $("#certificate option:selected").data("path"));
-});
+$("#certificate").on("change", ()=> $("#certificate-iframe").attr("src", $("#certificate option:selected").data("path")));
