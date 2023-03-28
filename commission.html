@@ -55,6 +55,11 @@
 
                         <h3 class="shimmer border-secondary border-bottom">Request a Quote</h3>
                         <br/>
+
+                        <div id="sent-message" class="alert alert-dismissible alert-info d-none">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            Your request has been sent. Please wait a few hours, and check your email provided. Thank you!
+                        </div>
                         
                         <div class="form-group">
                             <label for="email-in" class="form-label fw-bold">Email address</label>
@@ -220,5 +225,10 @@
     <script src="./scripts/bootstrap.bundle.min.js"></script>
     <script src="./scripts/global.js"></script>
     <script src="./scripts/pg-commission.js"></script>
+
+    <script>
+        if(new URL(window.location.href).searchParams.get("sent") != null)
+            $("#sent-message").removeClass("d-none").addClass("d-block");
+    </script>
 </body>
 </html>
