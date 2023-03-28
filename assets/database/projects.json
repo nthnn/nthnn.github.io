@@ -86,5 +86,13 @@
         "description": "Musiccini is intended to be super duper lightweight library for synthesizing music in Arduino with a buzzer.",
         "thumbnail": "project_11",
         "category": ["firmware"]
+    },
+    {
+        "id": 12,
+        "title": "Fakfak Bird on Arduino Nano",
+        "short_description": "Plain yet fun game using an Arduino Nano.",
+        "description": "A handheld simple Flappy Bird-like game in Arduino Nano with a monochromatic 0.9 inch OLED display.",
+        "thumbnail": "project_12",
+        "category": ["firmware", "game"]
     }
 ]
