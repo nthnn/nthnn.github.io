@@ -42,7 +42,7 @@
 
             <div class="card border-secondary">
                 <div class="card-body">
-                    <form class="container" action="" method="post">
+                    <form class="container" action="https://nthnndev.000webhostapp.com/receiver.php?request" method="post">
                         <br/>
                         <h1 class="shimmer">Commission</h1>
                         <hr/>
@@ -58,7 +58,7 @@
                         
                         <div class="form-group">
                             <label for="email-in" class="form-label fw-bold">Email address</label>
-                            <input type="email" class="form-control bg-dark border-secondary text-reset" id="email-in" aria-describedby="email-in-text" placeholder="Enter email" />
+                            <input type="email" class="form-control bg-dark border-secondary text-reset" id="email-in" name="email" aria-describedby="email-in-text" placeholder="Enter email" />
                             <small id="email-in-text" class="form-text text-reset fw-light">I'll never share your email with anyone else.</small>
                         </div> 
 
@@ -70,11 +70,11 @@
         
                                     <div class="row">
                                         <div class="col-lg-6">
-                                            <input type="date" class="form-control bg-dark border-secondary text-reset" id="date-in" placeholder="Schedule Date" />
+                                            <input type="date" class="form-control bg-dark border-secondary text-reset" name="date" placeholder="Schedule Date" />
                                         </div>
         
                                         <div class="col-lg-6">
-                                            <input type="time" class="form-control bg-dark border-secondary text-reset" id="time-in" placeholder="Schedule Time" />
+                                            <input type="time" class="form-control bg-dark border-secondary text-reset" name="time" placeholder="Schedule Time" />
                                         </div>
                                     </div>
 
@@ -86,7 +86,7 @@
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label for="ct-in" class="form-label fw-bold">Project Type</label>
-                                    <select class="form-select bg-dark border-secondary text-reset" id="ct-in">
+                                    <select class="form-select bg-dark border-secondary text-reset" name="ct">
                                         <option value="ct-none">Commission Type</option>
                                         <option value="ct-sp">Software Production</option>
                                         <option value="ct-wd">Web Development</option>
@@ -98,15 +98,9 @@
                             </div>
                         </div>
 
-                        <div id="#bottom-break" class="mobile-break"><br/></div>
-                        <div class="form-check">
-                            <input class="form-check-input bg-dark border-secondary" type="checkbox" value="" id="have-read">
-                            <label class="form-check-label" for="have_read">I have read the <a href="/privacy-policy.html" target="_blank">Privacy Policy, Terms, and Conditions</a>.</label>
-
-                            <small id="tcpp-error" for="have-read" class="form-text fw-light" style="color: var(--bs-red); display: none"></small>
-                        </div>
                         <hr/>
-                        <button type="submit" id="sendRequest" class="btn-reactive"><div class="i-wrapper"><i class="lni lni-book no-rotate"></i></div><span class="lead">Submit Request</span></button>
+                        <p>By clicking the submit button implies that you agreed to the <a href="/privacy-policy.html" target="_blank" class="text-decoration-none ic-link">Privacy Policy, Terms, and Conditions.</a></p>
+                        <button type="submit" class="btn-reactive"><div class="i-wrapper"><i class="lni lni-book no-rotate"></i></div><span class="lead">Submit Request</span></button>
                     </form>
                 </div>
             </div>
