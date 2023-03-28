@@ -73,5 +73,25 @@
         "src": "assets/gallery/gallery-015.png",
         "caption": "Get SLaunch now!<br/><br/>See my projects' page.",
         "date": "26 November, 2022"
+    },
+    {
+        "src":"assets/gallery/gallery-016.jpg",
+        "caption": "Meet these badass boys.",
+        "date": "18 February, 2023"
+    },
+    {
+        "src": "assets/gallery/gallery-017.jpg",
+        "caption": "Meet my prototype's prototype: AOR2560-X1.",
+        "date": "21 February, 2023"
+    },
+    {
+        "src": "assets/gallery/gallery-018.jpg",
+        "caption": "🐱‍👤👨‍🚀",
+        "date": "10 March, 2023"
+    },
+    {
+        "src": "assets/gallery/gallery-019.jpg",
+        "caption": "Fakfakuino Nano 🎮",
+        "date": "27 March, 2023"
     }
 ]
