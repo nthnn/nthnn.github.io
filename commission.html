@@ -12,37 +12,37 @@
     <link href="./styles/bootstrap.min.css" rel="stylesheet" />
     <link href="./styles/animate.min.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
+    <link href="./styles/pg-commission.css" rel="stylesheet" />
 
     <link href="./assets/images/favicon.ico" rel="shortcut icon" />
 </head>
 <body>
-    <header class="header sticky-top astrowhale">
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-            <div class="container-fluid">
-                <a class="display-5 navbar-brand" href="#">nthnn</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-                <div class="collapse navbar-collapse" id="navcontent">
-                    <div class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex d-block flex-row mx-md-auto mx-0">
-                        <a class="nav-link mx-3" href="/"><i class="lni lni-home"></i> Home</a>
-                        <a class="nav-link mx-3" href="/my-projects.html"><i class="lni lni-rocket"></i> My Projects</a>
-                        <a class="nav-link mx-3" href="/gallery.html"><i class="lni lni-display"></i> Gallery</a>
-                        <a class="nav-link mx-3" href="/about-me.html"><i class="lni lni-user"></i> About Me</a>
-                        <a class="nav-link mx-3 active" href="#"><i class="lni lni-signal"></i> Commission</a>
+    <div class="astrowhale">
+        <header class="header sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+                <div class="container-fluid">
+                    <a class="display-5 navbar-brand" href="#">nthnn</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+                    <div class="collapse navbar-collapse" id="navcontent">
+                        <div class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex d-block flex-row mx-md-auto mx-0">
+                            <a class="nav-link mx-3" href="/"><i class="lni lni-home"></i> Home</a>
+                            <a class="nav-link mx-3" href="/my-projects.html"><i class="lni lni-rocket"></i> My Projects</a>
+                            <a class="nav-link mx-3" href="/gallery.html"><i class="lni lni-display"></i> Gallery</a>
+                            <a class="nav-link mx-3" href="/about-me.html"><i class="lni lni-user"></i> About Me</a>
+                            <a class="nav-link mx-3 active" href="#"><i class="lni lni-signal"></i> Commission</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <div class="astrowhale">
         <br/><br class="desktop-break"/>
-
         <div class="container">
 
             <div class="card border-secondary">
                 <div class="card-body">
-                    <div class="container">
+                    <form class="container" action="" method="post">
                         <br/>
                         <h1 class="shimmer">Commission</h1>
                         <hr/>
@@ -54,12 +54,156 @@
                         <br/>
 
                         <h3 class="shimmer border-secondary border-bottom">Request a Quote</h3>
-                    </div>
+                        <br/>
+                        
+                        <div class="form-group">
+                            <label for="email-in" class="form-label fw-bold">Email address</label>
+                            <input type="email" class="form-control bg-dark border-secondary text-reset" id="email-in" aria-describedby="email-in-text" placeholder="Enter email" />
+                            <small id="email-in-text" class="form-text text-reset fw-light">I'll never share your email with anyone else.</small>
+                        </div> 
+
+                        <br/>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="date-in" class="form-label fw-bold">Schedule</label>
+        
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="date" class="form-control bg-dark border-secondary text-reset" id="date-in" placeholder="Schedule Date" />
+                                        </div>
+        
+                                        <div class="col-lg-6">
+                                            <input type="time" class="form-control bg-dark border-secondary text-reset" id="time-in" placeholder="Schedule Time" />
+                                        </div>
+                                    </div>
+
+                                    <small id="sched-error" class="form-text fw-light" style="color: var(--bs-red); display: none"></small>
+                                </div>
+                                <br/>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="ct-in" class="form-label fw-bold">Project Type</label>
+                                    <select class="form-select bg-dark border-secondary text-reset" id="ct-in">
+                                        <option value="ct-none">Commission Type</option>
+                                        <option value="ct-sp">Software Production</option>
+                                        <option value="ct-wd">Web Development</option>
+                                        <option value="ct-ma">Mobile App Development</option>
+                                    </select>
+
+                                    <small id="ct-error" class="form-text fw-light" style="color: var(--bs-red); display: none"></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="#bottom-break" class="mobile-break"><br/></div>
+                        <div class="form-check">
+                            <input class="form-check-input bg-dark border-secondary" type="checkbox" value="" id="have-read">
+                            <label class="form-check-label" for="have_read">I have read the <a href="/privacy-policy.html" target="_blank">Privacy Policy, Terms, and Conditions</a>.</label>
+
+                            <small id="tcpp-error" for="have-read" class="form-text fw-light" style="color: var(--bs-red); display: none"></small>
+                        </div>
+                        <hr/>
+                        <button type="submit" id="sendRequest" class="btn-reactive"><div class="i-wrapper"><i class="lni lni-book no-rotate"></i></div><span class="lead">Submit Request</span></button>
+                    </form>
                 </div>
             </div>
         </div>
 
         <br/><br class="desktop-break"/>
+    </div>
+
+    <div class="container">
+        <br/><br/>
+        
+        <div class="card bg-light text-dark">
+            <div class="row">
+                <div class="col-lg-3">
+                    <br class="desktop-break" />
+                    <center>
+                        <img src="assets/images/img_rocket.png" class="service-img-1" width="70%" />
+                        <h5 class="fw-bold">Software Production</h5>
+                    </center>
+                </div>
+
+                <div class="col-lg-3">
+                    <center class="price-row">
+                        <p class="lead">Starting from<br/><span class="display-6 fw-bold">$34.99 USD</span>.<br/><small class="text-muted price-est"><i>est.</i> Php <span id="price-sp"></span></small></p>
+                    </center>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="desktop-break">
+                        <br/><br/>
+                    </div>
+
+                    <ul>
+                        <li>Software testing and development from scratch.</li>
+                        <li>Development of wide varieties of software.</li>
+                        <li>Product-ready console applications, GUIs, and even dynamically linked libraries.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <center>
+                        <img src="assets/images/img_planet.png" class="service-img-1" width="70%" />
+                        <h5 class="fw-bold">Web Development</h5>
+                    </center>
+                </div>
+
+                <div class="col-lg-3">
+                    <center class="price-row">
+                        <p class="lead">Starting from<br/><span class="display-6 fw-bold">$26.99 USD</span>.<br/><small class="text-muted price-est"><i>est.</i> Php <span id="price-wd"></span></small></p>
+                    </center>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="desktop-break">
+                        <br/><br/>
+                    </div>
+
+                    <ul>
+                        <li>From development to deployment of websites starting from scratch.</li>
+                        <li>Server-side modeling and client-side front-end designing.</li>
+                        <li>Pentesting server-side to ensure the web application&#39;s security.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <center>
+                        <img src="assets/images/img_satelite.png" class="service-img-1" width="70%" />
+                        <h5 class="fw-bold">Android App Development</h5>
+                    </center>
+                    <br class="desktop-break"/>
+                </div>
+
+                <div class="col-lg-3">
+                    <center class="price-row">
+                        <p class="lead">Starting from<br/><span class="display-6 fw-bold">$61.99 USD</span>.<br/><small class="text-muted price-est"><i>est.</i> Php <span id="price-ma"></span></small></p>
+                    </center>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="desktop-break">
+                        <br/><br/>
+                    </div>
+
+                    <ul>
+                        <li>Android application development with Java.</li>
+                        <li>Professional-looking design yet user-friendly mobile app UI and UX.</li>
+                        <li>Producing a product-ready Android applications for thousands of users world-wide.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <br/>
@@ -81,5 +225,6 @@
     <script src="./scripts/jquery.min.js"></script>
     <script src="./scripts/bootstrap.bundle.min.js"></script>
     <script src="./scripts/global.js"></script>
+    <script src="./scripts/pg-commission.js"></script>
 </body>
 </html>
