@@ -154,7 +154,7 @@
     {
         "id": 20,
         "title": "MaskUp",
-        "short_description": "Simple program that can identify if an individual is wearing a face mask.",
+        "short_description": "Simple program to identify.",
         "description": "MaskUp is an advanced Python program designed to accurately detect whether a person is wearing a mask from an available web camera.",
         "thumbnail": "project_20",
         "category": ["software"]
