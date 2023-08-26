@@ -94,5 +94,101 @@
         "description": "A handheld simple Flappy Bird-like game in Arduino Nano with a monochromatic 0.9 inch OLED display.",
         "thumbnail": "project_12",
         "category": ["firmware", "game"]
+    },
+    {
+        "id": 13,
+        "title": "Batch2Exe",
+        "short_description": "Windows batch file to executable file converter.",
+        "description": "Batch2Exe is a program for converting batch files to executable files on Windows with user friendly GUI.",
+        "thumbnail": "project_13",
+        "category": ["software"]
+    },
+    {
+        "id": 14,
+        "title": "Arduquarium",
+        "short_description": "Automated aquarium recycling with Arduino UNO.",
+        "description": "An automated aquarium water cycler built using an Arduino UNO board to maintain optimal water conditions on aquariums.",
+        "thumbnail": "project_14",
+        "category": ["firmware"]
+    },
+    {
+        "id": 15,
+        "title": "Recognito",
+        "short_description": "Mini-silly image classifier UI with tensorflow and PyQT5.",
+        "description": "A Python program that uses the power of PyQT5 and TensorFlow for identifying objects from image files.",
+        "thumbnail": "project_15",
+        "category": ["software"]
+    },
+    {
+        "id": 16,
+        "title": "VizhPort",
+        "short_description": "Python program to monitor serial port with visualization.",
+        "description": "VizhPort is a Python program that allows users to monitor the serial port with a graphical display using Pygtgraph.",
+        "thumbnail": "project_16",
+        "category": ["software"]
+    },
+    {
+        "id": 17,
+        "title": "PH4502C Sensor",
+        "short_description": "Easy-to-use Arduino library for PH4502C sensor.",
+        "description": "This Arduino library provides a convenient and easy-to-use interface for the PH4502C sensor, allowing you to effortlessly integrate it into your Arduino projects.",
+        "thumbnail": "project_17",
+        "category": ["firmware"]
+    },
+    {
+        "id": 18,
+        "title": "Anomalia",
+        "short_description": " Arduino library for data processing anomalies.",
+        "description": "The Anomalia library is an Arduino library designed to provide a flexible and efficient framework for handling anomaly events in your Arduino projects.",
+        "thumbnail": "project_18",
+        "category": ["firmware"]
+    },
+    {
+        "id": 19,
+        "title": "Navigador",
+        "short_description": "Arduino library for dual DC motor navigation.",
+        "description": "The Navigador Arduino library provides a convenient way to control the movement of a mobile robot or vehicle using an Arduino board.",
+        "thumbnail": "project_19",
+        "category": ["firmware"]
+    },
+    {
+        "id": 20,
+        "title": "MaskUp",
+        "short_description": "Simple program that can identify if an individual is wearing a face mask.",
+        "description": "MaskUp is an advanced Python program designed to accurately detect whether a person is wearing a mask from an available web camera.",
+        "thumbnail": "project_20",
+        "category": ["software"]
+    },
+    {
+        "id": 21,
+        "title": "VoxHAUT-Roamer",
+        "short_description": "An interactive pet robot on ESP8266 and Android phone.",
+        "description": "VoxHAUT combines various technologies such as the ESP8266 NodeMCU 1.0 microcontroller unit, the ESP8266 L293DD Motor Shield, AHT20 and BMP280 sensor,",
+        "thumbnail": "project_21",
+        "category": ["app", "firmware"]
+    },
+    {
+        "id": 22,
+        "title": "Monitoria",
+        "short_description": "Attendance monitoring system with ESP8266 NodeMCU and RFID.",
+        "description": "Monitoria is a comprehensive attendance monitoring system that utilizes an ESP8266 microcontroller unit along with an RFID sensor to record attendance logs.",
+        "thumbnail": "project_22",
+        "category": ["software", "firmware"]
+    },
+    {
+        "id": 23,
+        "title": "TCS3200 Sensor",
+        "short_description": "Comprehensive Arduino library for TCS3200 color sensor.",
+        "description": "Color sensing is a crucial aspect of many modern applications, from color detection and sorting in industrial processes to smart home automation systems.",
+        "thumbnail": "project_23",
+        "category": ["firmware"]
+    },
+    {
+        "id": 24,
+        "title": "Diwa",
+        "short_description": "Arduino lightweight surface library for AI and ML.",
+        "description": "Diwa is an Arduino lightweight library for Artificial Intelligence (AI) and Machine Learning (ML) applications and development.",
+        "thumbnail": "project_24",
+        "category": ["firmware"]
     }
 ]
