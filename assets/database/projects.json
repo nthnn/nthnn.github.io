@@ -106,8 +106,8 @@
     {
         "id": 14,
         "title": "Arduquarium",
-        "short_description": "Automated aquarium recycling with Arduino UNO.",
-        "description": "An automated aquarium water cycler built using an Arduino UNO board to maintain optimal water conditions on aquariums.",
+        "short_description": "Automated aquarium recycler.",
+        "description": "Automated aquarium water cycler built using an Arduino UNO board to maintain optimal water conditions on aquariums.",
         "thumbnail": "project_14",
         "category": ["firmware"]
     },
@@ -123,23 +123,23 @@
         "id": 16,
         "title": "VizhPort",
         "short_description": "Python program to monitor serial port with visualization.",
-        "description": "VizhPort is a Python program that allows users to monitor the serial port with a graphical display using Pygtgraph.",
+        "description": "VizhPort is a Python program that allows users to monitor the serial port with a graphical display.",
         "thumbnail": "project_16",
         "category": ["software"]
     },
     {
         "id": 17,
         "title": "PH4502C Sensor",
-        "short_description": "Easy-to-use Arduino library for PH4502C sensor.",
-        "description": "This Arduino library provides a convenient and easy-to-use interface for the PH4502C sensor, allowing you to effortlessly integrate it into your Arduino projects.",
+        "short_description": "Arduino library for PH4502C sensor.",
+        "description": "Provides a convenient and easy-to-use PH4502C library, allowing you to effortlessly integrate into your Arduino projects.",
         "thumbnail": "project_17",
         "category": ["firmware"]
     },
     {
         "id": 18,
         "title": "Anomalia",
-        "short_description": " Arduino library for data processing anomalies.",
-        "description": "The Anomalia library is an Arduino library designed to provide a flexible and efficient framework for handling anomaly events in your Arduino projects.",
+        "short_description": " Library for anomaly data processing.",
+        "description": "Arduino library designed to provide a flexible and efficient framework for handling anomaly events in your Arduino projects.",
         "thumbnail": "project_18",
         "category": ["firmware"]
     },

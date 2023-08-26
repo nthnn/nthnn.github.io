@@ -1,4 +1,4 @@
 {
-    "title": "",
-    "content": ""
+    "title": "Anomalia",
+    "content": "<h1 class=\"shimmer\">Anomalia</h1><hr/><p>The Anomalia library is an Arduino library designed to provide a flexible and efficient framework for handling anomaly events in your Arduino projects. It allows you to define events, specify conditions, and execute corresponding actions when those events occur. With Anomalia, you can easily monitor various system states, detect anomalies, and respond accordingly, enhancing the reliability and functionality of your Arduino applications. The library provides a powerful framework for handling events and anomalies in your Arduino projects. By defining events, specifying conditions, and executing actions, you can monitor system states and respond to anomalies effectively.</p><center><a class=\"btn-reactive-a\" href=\"https://github.com/nthnn/Anomalia\" target=\"_blank\"><button class=\"btn-reactive btn-lg\"><div class=\"i-wrapper\"><i class=\"lni lni-github no-rotate\"></i></div><span class=\"lead\">Get on GitHub</span></button></a></center>"
 }
