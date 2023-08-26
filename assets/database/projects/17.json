@@ -1,4 +1,4 @@
 {
-    "title": "",
-    "content": ""
+    "title": "PH4502C Sensor",
+    "content": "<div class=\"row\"><div class=\"col-lg-6\"><h1 class=\"shimmer\">PH4502C Sensor Arduino Library</h1><hr/><p>This Arduino library provides a convenient and easy-to-use interface for the PH4502C sensor, allowing you to effortlessly integrate it into your Arduino projects. The PH4502C sensor is a high-precision pH sensor capable of accurately measuring pH levels in various applications.</p><br/><center><a class=\"btn-reactive-a\" href=\"https://github.com/nthnn/PH4502C-Sensor\" target=\"_blank\"><button class=\"btn-reactive btn-lg\"><div class=\"i-wrapper\"><i class=\"lni lni-github no-rotate\"></i></div><span class=\"lead\">Get on GitHub</span></button></a></center><br/></div><div class=\"col-lg-6\"><a href=\"./assets/images/projects/project_17_01.png\"><img src=\"./assets/images/projects/project_17_01.png\" width=\"100%\" /></a></div></div>"
 }
