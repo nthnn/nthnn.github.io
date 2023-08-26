@@ -1,4 +1,4 @@
 {
-    "title": "",
-    "content": ""
+    "title": "Navigador",
+    "content": "<div class=\"row\"><div class=\"col-lg-7\"><h1 class=\"shimmer\">Navigador - DC Motor Navigation Library</h1><hr/><p>The Navigador Arduino library provides a convenient way to control the movement of a mobile robot or vehicle using an Arduino board. It allows you to easily control the robot's movement in various directions and define predefined paths for it to follow. This library is designed to work with Arduino boards and provides an intuitive interface for controlling motors and managing robot behavior.</p><br/><center><a class=\"btn-reactive-a\" href=\"https://github.com/nthnn/Navigador\" target=\"_blank\"><button class=\"btn-reactive btn-lg\"><div class=\"i-wrapper\"><i class=\"lni lni-github no-rotate\"></i></div><span class=\"lead\">Get on GitHub</span></button></a></center><br/></div><div class=\"col-lg-5\"><a href=\"./assets/images/projects/project_19_01.png\"><img src=\"./assets/images/projects/project_19_01.png\" width=\"100%\" /></a></div></div>"
 }
