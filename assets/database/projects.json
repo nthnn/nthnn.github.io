@@ -178,15 +178,15 @@
     {
         "id": 23,
         "title": "TCS3200 Sensor",
-        "short_description": "Comprehensive Arduino library for TCS3200 color sensor.",
-        "description": "Color sensing is a crucial aspect of many modern applications, from color detection and sorting in industrial processes to smart home automation systems.",
+        "short_description": "Comprehensive TCS3200 Arduino library.",
+        "description": "The TCS3200 Arduino Library is designed with simplicity and extensibility in mind, offering wide range of functionalities.",
         "thumbnail": "project_23",
         "category": ["firmware"]
     },
     {
         "id": 24,
         "title": "Diwa",
-        "short_description": "Arduino lightweight surface library for AI and ML.",
+        "short_description": "Arduino AI/ML lightweight surface library.",
         "description": "Diwa is an Arduino lightweight library for Artificial Intelligence (AI) and Machine Learning (ML) applications and development.",
         "thumbnail": "project_24",
         "category": ["firmware"]
