@@ -161,17 +161,17 @@
     },
     {
         "id": 21,
-        "title": "VoxHAUT-Roamer",
-        "short_description": "An interactive pet robot on ESP8266 and Android phone.",
-        "description": "VoxHAUT combines various technologies such as the ESP8266 NodeMCU 1.0 microcontroller unit, the ESP8266 L293DD Motor Shield, AHT20 and BMP280 sensor,",
+        "title": "VoxHAUT Roamer",
+        "short_description": "An interactive pet robot.",
+        "description": "VoxHAUT is an interactive pet robot with emotional display, audio synthesis capabilities, sensors, and an Android app.",
         "thumbnail": "project_21",
         "category": ["app", "firmware"]
     },
     {
         "id": 22,
         "title": "Monitoria",
-        "short_description": "Attendance monitoring system with ESP8266 NodeMCU and RFID.",
-        "description": "Monitoria is a comprehensive attendance monitoring system that utilizes an ESP8266 microcontroller unit along with an RFID sensor to record attendance logs.",
+        "short_description": "Attendance monitoring system.",
+        "description": "A comprehensive attendance monitoring system that utilizes an ESP8266 with an RFID sensor to record attendance logs.",
         "thumbnail": "project_22",
         "category": ["software", "firmware"]
     },
