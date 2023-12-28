@@ -190,5 +190,13 @@
         "description": "Diwa is an Arduino lightweight library for Artificial Intelligence (AI) and Machine Learning (ML) applications and development.",
         "thumbnail": "project_24",
         "category": ["firmware"]
+    },
+    {
+        "id": 25,
+        "title": "PortaMob",
+        "short_description": "An Arduino shield with OLED and few buttons.",
+        "description": "Portable Mobile device-like shield for UNO-like boards; an ingenious extension for the Arduino UNO platform.",
+        "thumbnail": "project_25",
+        "category": ["firmware"]
     }
 ]
