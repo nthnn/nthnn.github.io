@@ -1,10 +1,18 @@
 TagCloud(".sphere", [
-    "Arduino", "Espressif", "AVR PIC", "Adafruit",
-    "C#", "Java", "PHP", "C", "C++", "Swing",
-    "HTML", "CSS", "Bootstrap", "jQuery", "SQL", "JavaScript", "ElectronJS",
-    "Visual Studio", "InteliJ", "Android Studio", "NetBeans", "XAMPP"
+    "C#", ".NET Framework", "Java", "Kotlin", "Go",
+    "TypeScript", "JavaScript", "Ballerina", "Python",
+    "Jupyter Notebook", "Git", "GitHub", "GitHub Actions",
+    "MarkDown", "Assembly", "PHP", "MySQL", "XAMPP", "C",
+    "C++", "Doxygen", "LLVM", "Vercel", "NodeJS", "Nodemon",
+    "Jest", "Parcel", "Vite", "Vue", "Babel", "Electron",
+    "React", "PostCSS", "Tailwind", "Flowbite", "HeroIcons",
+    "Firebase", "HTML5", "Pug", "CSS3", "SASS", "Bootstrap",
+    "jQuery", "Phaser", "Tiled", "Arduino", "Espressif",
+    "PlatformIO", "Adafruit", "AVR", "ATMel", "EasyEDA",
+    "Visual Studio", "Visual Studio Code", "Android Studio",
+    "IntelliJ", "NetBeans", "DevC++"
 ], {
-    radius: 130,
+    radius: 200,
     maxSpeed: 'normal',
     initSpeed: 'fast',
     direction: 135,
