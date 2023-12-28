@@ -20,7 +20,7 @@ $.getJSON("./assets/database/gallery.json", (data)=> {
     for(let i = 0; i < data.length; i++) {
         if(i % 3 == 0) content += "</div><div class=\"row\">";
 
-        content += "<div class=\"col-lg-4" + (i <= 2 ? "" : " reveal fade-bottom") + "\"><a id=\"caption-" + capId + "\" href=\"" + data[i]["src"] + "\"><img class=\"img-fluid\" src=\"" + data[i]["src"] + "\" alt=\"" + data[i]["caption"] + "\"/></a><span onclick=\"clickImage(document.getElementById('caption-" + capId + "'))\" class=\"lead fw-bold\">" + data[i]["caption"] + "</span><p class=\"date\">" + data[i]["date"] + "</p></div>";
+        content += "<div class=\"col-lg-4" + (i <= 2 ? "" : " reveal fade-bottom") + "\"><a id=\"caption-" + capId + "\" href=\"" + data[i]["src"] + "\"><img class=\"img-fluid\" src=\"" + data[i]["src"] + "\" alt=\"" + data[i]["caption"] + "\"/></a><span onclick=\"clickImage(document.getElementById('caption-" + capId + "'))\" class=\"lead fw-bold gallery-caption\">" + data[i]["caption"] + "</span><p class=\"date\">" + data[i]["date"] + "</p></div>";
         capId++;
     }
     content += "</div>";
