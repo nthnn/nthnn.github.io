@@ -206,5 +206,13 @@
         "description": "A powerful and versatile wannabe penetration testing tool designed for ethical and legitimate security testing purposes.",
         "thumbnail": "project_26",
         "category": ["software"]
+    },
+    {
+        "id": 27,
+        "title": "SIM900",
+        "short_description": "Comprehensive library for Arduino SIM900 shield.",
+        "description": "The SIM900 Arduino Shield Library is a versatile and powerful Arduino library for interfacing with the SIM900 GSM/GPRS module.",
+        "thumbnail": "project_27",
+        "category": ["firmware"]
     }
 ]
