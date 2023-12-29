@@ -214,5 +214,13 @@
         "description": "The SIM900 Arduino Shield Library is a versatile and powerful Arduino library for interfacing with the SIM900 GSM/GPRS module.",
         "thumbnail": "project_27",
         "category": ["firmware"]
+    },
+    {
+        "id": 28,
+        "title": "Astroclock",
+        "short_description": "Cute cubic desktop date and time with Arduino.",
+        "description": "Astroclock is a cute desktop date and time display powered by an Arduino Nano and a monochromatic SH1106 OLED display.",
+        "thumbnail": "project_28",
+        "category": ["firmware"]
     }
 ]
