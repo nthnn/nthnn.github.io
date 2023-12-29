@@ -222,5 +222,13 @@
         "description": "Astroclock is a cute desktop date and time display powered by an Arduino Nano and a monochromatic SH1106 OLED display.",
         "thumbnail": "project_28",
         "category": ["firmware"]
+    },
+    {
+        "id": 29,
+        "title": "microlzw",
+        "short_description": "Micro Lempel-Ziv-Welch compression library for strings.",
+        "description": "microlzw is a lightweight and embeddable Micro Lempel-Ziv-Welch compression library designed specifically for Arduino projects.",
+        "thumbnail": "project_29",
+        "category": ["firmware"]
     }
 ]
