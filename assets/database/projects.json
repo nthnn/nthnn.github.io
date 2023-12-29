@@ -254,5 +254,13 @@
         "description": "Qrepo is a lightweight and intuitive package and build manager designed to streamline the process of managing project dependencies and scripts.",
         "thumbnail": "project_32",
         "category": ["software"]
+    },
+    {
+        "id": 33,
+        "title": "Rheolaeth",
+        "short_description": "Remote tool for controlling shell via HTTP.",
+        "description": "Rheolaeth is a Ballerina program designed for secure payload remote shell execution on devices, consists of &quote;puppet&quot; and a &quot;puppetmaster&quot;.",
+        "thumbnail": "project_33",
+        "category": ["software"]
     }
 ]
