@@ -226,7 +226,7 @@
     {
         "id": 29,
         "title": "microlzw",
-        "short_description": "Micro Lempel-Ziv-Welch compression library for strings.",
+        "short_description": "Micro Lempel-Ziv-Welch compression library.",
         "description": "microlzw is a lightweight and embeddable Micro Lempel-Ziv-Welch compression library designed specifically for Arduino projects.",
         "thumbnail": "project_29",
         "category": ["firmware"]
@@ -234,7 +234,7 @@
     {
         "id": 30,
         "title": "Wtf-C!?",
-        "short_description": "Playful unconventional language extension for C and C++.",
+        "short_description": "Unconventional language extension for C and C++.",
         "description": "&quot;wtf-C!?&quot; is a playful language extension for C and C++ that introduces unconventional macros for common programming constructs.",
         "thumbnail": "project_30",
         "category": ["software"]
@@ -242,9 +242,17 @@
     {
         "id": 31,
         "title": "Zync OS",
-        "short_description": "Mock-up bootloader and kernel-only operating system.",
+        "short_description": "Mock-up bootloader and kernel-only OS.",
         "description": "Zync OS is a mock-up bootloader and kernel-only dummy operating system. It has a very basic boring shell written purely in Assembly x86.",
         "thumbnail": "project_31",
+        "category": ["software"]
+    },
+    {
+        "id": 32,
+        "title": "Qrepo Package Manager",
+        "short_description": "Simple and easy-to-use all-for-one build tool.",
+        "description": "Qrepo is a lightweight and intuitive package and build manager designed to streamline the process of managing project dependencies and scripts.",
+        "thumbnail": "project_32",
         "category": ["software"]
     }
 ]
