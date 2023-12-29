@@ -198,5 +198,13 @@
         "description": "Portable Mobile device-like shield for UNO-like boards; an ingenious extension for the Arduino UNO platform.",
         "thumbnail": "project_25",
         "category": ["firmware"]
+    },
+    {
+        "id": 26,
+        "title": "Hopia",
+        "short_description": "Easy-to-use tool for wannabe-hackers.",
+        "description": "A powerful and versatile wannabe penetration testing tool designed for ethical and legitimate security testing purposes.",
+        "thumbnail": "project_26",
+        "category": ["software"]
     }
 ]
