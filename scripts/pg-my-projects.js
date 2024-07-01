@@ -4,7 +4,7 @@ let dumpData = (data, category, filter = "")=> {
     for(let j = 0; j < data.length; j++)
         if(data[j]["category"].includes(category) || category === "category")
             if(filter === "" || data[j]["title"].toLowerCase().indexOf(filter.toLowerCase()) != -1 || data[j]["description"].toLowerCase().indexOf(filter.toLowerCase()) != -1) {
-                content += "<div class=\"card card-body border-secondary animate__animated animate__flipInX\" onclick=\"window.location.href='view.html?id=" + data[j]["id"] + "'\"><div class=\"row\"><div class=\"col-lg-6\"><img src=\"./assets/images/projects/" + data[j]["thumbnail"] + ".png\" class=\"card-img\" width=\"100%\"/><div class=\"mobile-break\"><br/></div></div><div class=\"col-lg-6\"><h3 class=\"card-title shimmer shimmer-with-hover\">" + data[j]["title"] + "</h3><small><i>" + data[j]["short_description"] + "</i></small><br/><br/><p>" + data[j]["description"] + "</p></div></div></div><br/>";
+                content += "<div class=\"card card-body border-secondary animate__animated animate__flipInX\" onclick=\"window.location.href='view.html?id=" + data[j]["id"] + "'\"><div class=\"row\"><div class=\"col-lg-6 h-100\"><img src=\"./assets/images/projects/" + data[j]["thumbnail"] + ".png\" class=\"my-2 card-img\" width=\"100%\"/><div class=\"mobile-break\"><br/></div></div><div class=\"col-lg-6\"><h3 class=\"card-title shimmer shimmer-with-hover mt-1\">" + data[j]["title"] + "</h3><small><i>" + data[j]["short_description"] + "</i></small><br/><br/><p>" + data[j]["description"] + "</p></div></div></div><br/>";
                 count++;
             }
 
