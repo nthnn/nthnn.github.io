@@ -194,7 +194,7 @@
     {
         "id": 25,
         "title": "PortaMob",
-        "short_description": "An Arduino shield with OLED and few buttons.",
+        "short_description": "Arduino shield with OLED and buttons.",
         "description": "Portable Mobile device-like shield for UNO-like boards; an ingenious extension for the Arduino UNO platform.",
         "thumbnail": "project_25",
         "category": ["firmware"]
@@ -210,7 +210,7 @@
     {
         "id": 27,
         "title": "SIM900",
-        "short_description": "Comprehensive library for Arduino SIM900 shield.",
+        "short_description": "Comprehensive library for SIM900 shield.",
         "description": "The SIM900 Arduino Shield Library is a versatile and powerful Arduino library for interfacing with the SIM900 GSM/GPRS module.",
         "thumbnail": "project_27",
         "category": ["firmware"]
@@ -218,7 +218,7 @@
     {
         "id": 28,
         "title": "Astroclock",
-        "short_description": "Cute cubic desktop date and time with Arduino.",
+        "short_description": "Cubic desktop date and time with Arduino.",
         "description": "Astroclock is a cute desktop date and time display powered by an Arduino Nano and a monochromatic SH1106 OLED display.",
         "thumbnail": "project_28",
         "category": ["firmware"]
@@ -226,7 +226,7 @@
     {
         "id": 29,
         "title": "microlzw",
-        "short_description": "Micro Lempel-Ziv-Welch compression library.",
+        "short_description": "Micro-LZW compression library.",
         "description": "microlzw is a lightweight and embeddable Micro Lempel-Ziv-Welch compression library designed specifically for Arduino projects.",
         "thumbnail": "project_29",
         "category": ["firmware"]
@@ -234,7 +234,7 @@
     {
         "id": 30,
         "title": "Wtf-C!?",
-        "short_description": "Unconventional language extension for C and C++.",
+        "short_description": "Meta-language extension for C and C++.",
         "description": "&quot;wtf-C!?&quot; is a playful language extension for C and C++ that introduces unconventional macros for common programming constructs.",
         "thumbnail": "project_30",
         "category": ["software"]
@@ -249,8 +249,8 @@
     },
     {
         "id": 32,
-        "title": "Qrepo Package Manager",
-        "short_description": "Simple and easy-to-use all-for-one build tool.",
+        "title": "Qrepo",
+        "short_description": "Easy-to-use all-for-one build tool.",
         "description": "Qrepo is a lightweight and intuitive package and build manager designed to streamline the process of managing project dependencies and scripts.",
         "thumbnail": "project_32",
         "category": ["software"]
