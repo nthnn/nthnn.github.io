@@ -23,14 +23,14 @@ $.getJSON("./assets/database/projects.json", (data)=> {
     setTimeout(()=> dumpData(data, "category"), 5800);
 
     $("#filter").change(()=> {
-        dumpData(data, $("input[name=category]:checked").val(), $("#filter").val().replace(/[\u00A0-\u9999<>\&]/g, (i)=> {
+        dumpData(data, $("#categories").find(":selected").val(), $("#filter").val().replace(/[\u00A0-\u9999<>\&]/g, (i)=> {
             return '&#' + i.charCodeAt(0) + ';';
          }));
     });
 
-    $("#categories input[type=radio]").change(()=> {
+    $("#categories").change(()=> {
         $("#projects").html("");
-        dumpData(data, $("input[name=category]:checked").val());
+        dumpData(data, $("#categories").find(":selected").val());
     });
 }).fail(()=> {
     $("#projects").addClass("d-none");
