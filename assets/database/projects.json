@@ -262,5 +262,13 @@
         "description": "Rheolaeth is a Ballerina program designed for secure payload remote shell execution on devices, consists of &quot;puppet&quot; and a &quot;puppetmaster&quot;.",
         "thumbnail": "project_33",
         "category": ["software"]
+    },
+    {
+        "id": 34,
+        "title": "ladivic",
+        "short_description": "System-level thread- and fail-safe library.",
+        "description": "C++ library for providing system-level thread- and fail-safe functions for atomicity, file I/O, IPC, memory management, and sysinfo retrieval.",
+        "thumbnail": "project_34",
+        "category": ["software"]
     }
 ]
