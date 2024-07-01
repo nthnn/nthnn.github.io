@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "OTG-Nilboard",
-        "short_description": "Android app to suppress the default keyboard.",
+        "short_description": "Android app to suppress keyboard.",
         "description": "OTG-Nilboard keyboard literally does nothing and is purposively made for bluetooth or OTG keyboard users.",
         "thumbnail": "project_02",
         "category": ["app"]
@@ -89,7 +89,7 @@
     },
     {
         "id": 12,
-        "title": "Fakfak Bird on Arduino Nano",
+        "title": "Fakfak Bird",
         "short_description": "Plain yet fun game using an Arduino Nano.",
         "description": "A handheld simple Flappy Bird-like game in Arduino Nano with a monochromatic 0.9 inch OLED display.",
         "thumbnail": "project_12",
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "title": "Batch2Exe",
-        "short_description": "Windows batch file to executable file converter.",
+        "short_description": "Batch file to *.exe file converter.",
         "description": "Batch2Exe is a program for converting batch files to executable files on Windows with user friendly GUI.",
         "thumbnail": "project_13",
         "category": ["software"]
@@ -114,7 +114,7 @@
     {
         "id": 15,
         "title": "Recognito",
-        "short_description": "Mini-silly image classifier UI with tensorflow and PyQT5.",
+        "short_description": "Image classifier UI with TensorFlow.",
         "description": "A Python program that uses the power of PyQT5 and TensorFlow for identifying objects from image files.",
         "thumbnail": "project_15",
         "category": ["ai", "software"]
@@ -122,7 +122,7 @@
     {
         "id": 16,
         "title": "VizhPort",
-        "short_description": "Python program to monitor serial port with visualization.",
+        "short_description": "Serial port monitor with visualization.",
         "description": "VizhPort is a Python program that allows users to monitor the serial port with a graphical display.",
         "thumbnail": "project_16",
         "category": ["software"]
