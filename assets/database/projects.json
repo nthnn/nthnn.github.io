@@ -117,7 +117,7 @@
         "short_description": "Mini-silly image classifier UI with tensorflow and PyQT5.",
         "description": "A Python program that uses the power of PyQT5 and TensorFlow for identifying objects from image files.",
         "thumbnail": "project_15",
-        "category": ["software"]
+        "category": ["ai", "software"]
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
         "short_description": "Simple program to identify.",
         "description": "MaskUp is an advanced Python program designed to accurately detect whether a person is wearing a mask from an available web camera.",
         "thumbnail": "project_20",
-        "category": ["software"]
+        "category": ["ai", "software"]
     },
     {
         "id": 21,
@@ -189,7 +189,7 @@
         "short_description": "Arduino AI/ML lightweight surface library.",
         "description": "Diwa is an Arduino lightweight library for Artificial Intelligence (AI) and Machine Learning (ML) applications and development.",
         "thumbnail": "project_24",
-        "category": ["firmware"]
+        "category": ["ai", "firmware"]
     },
     {
         "id": 25,
@@ -259,7 +259,7 @@
         "id": 33,
         "title": "Rheolaeth",
         "short_description": "Remote tool for controlling shell via HTTP.",
-        "description": "Rheolaeth is a Ballerina program designed for secure payload remote shell execution on devices, consists of &quote;puppet&quot; and a &quot;puppetmaster&quot;.",
+        "description": "Rheolaeth is a Ballerina program designed for secure payload remote shell execution on devices, consists of &quot;puppet&quot; and a &quot;puppetmaster&quot;.",
         "thumbnail": "project_33",
         "category": ["software"]
     }
