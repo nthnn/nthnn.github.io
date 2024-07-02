@@ -270,5 +270,13 @@
         "description": "C++ library for providing system-level thread- and fail-safe functions for atomicity, file I/O, IPC, memory management, and sysinfo retrieval.",
         "thumbnail": "project_34",
         "category": ["software"]
+    },
+    {
+        "id": 35,
+        "title": "Tomo",
+        "short_description": "Handheld companion pet made with ESP32.",
+        "description": "An AI-like handheld interactable full of emotion companion pet made with ESP32 NodeMCU via Arduino Platform.",
+        "thumbnail": "project_35",
+        "category": ["firmware", "game"]
     }
 ]
