@@ -286,5 +286,13 @@
         "description": "Feedforward Neural Network Coprocessing Microcontroller Unit on STM32F103C8T6 Bluepill devboard written in TinyGo.",
         "thumbnail": "project_36",
         "category": ["ai", "firmware"]
+    },
+    {
+        "id": 37,
+        "title": "NoOS",
+        "short_description": "No Operating System Unikernel",
+        "description": "NoOS (No Operating System) is an attempt unikernel framework for developing programs in C++ without OS.",
+        "thumbnail": "project_37",
+        "category": ["software"]
     }
 ]
