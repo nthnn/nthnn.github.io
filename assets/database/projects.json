@@ -278,5 +278,13 @@
         "description": "An AI-like handheld interactable full of emotion companion pet made with ESP32 NodeMCU via Arduino Platform.",
         "thumbnail": "project_35",
         "category": ["firmware", "game"]
+    },
+    {
+        "id": 36,
+        "title": "N2CMU",
+        "short_description": "Neural Network Coprocessing MCU",
+        "description": "Feedforward Neural Network Coprocessing Microcontroller Unit on STM32F103C8T6 Bluepill devboard written in TinyGo.",
+        "thumbnail": "project_36",
+        "category": ["ai", "firmware"]
     }
 ]
