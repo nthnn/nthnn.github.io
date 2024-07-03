@@ -294,5 +294,13 @@
         "description": "NoOS (No Operating System) is an attempt unikernel framework for developing programs in C++ without OS.",
         "thumbnail": "project_37",
         "category": ["software"]
+    },
+    {
+        "id": 38,
+        "title": "NateOS",
+        "short_description": "My own lightweight Linux-based OS",
+        "description": "My own lightweight Linux-based OS distribution, created for enjoyment and personal experimentation.",
+        "thumbnail": "project_38",
+        "category": ["software"]
     }
 ]
