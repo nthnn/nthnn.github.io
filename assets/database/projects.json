@@ -293,7 +293,7 @@
         "short_description": "No Operating System Unikernel",
         "description": "NoOS (No Operating System) is an attempt unikernel framework for developing programs in C++ without OS.",
         "thumbnail": "project_37",
-        "category": ["software"]
+        "category": ["software", "firmware"]
     },
     {
         "id": 38,
@@ -302,5 +302,13 @@
         "description": "My own lightweight Linux-based OS distribution, created for enjoyment and personal experimentation.",
         "thumbnail": "project_38",
         "category": ["software"]
+    },
+    {
+        "id": 39,
+        "title": "Rust RP2040",
+        "short_description": "Rust Project Template for RP2040",
+        "description": "A starting point for developing embedded Rust applications on Raspberry Pi Pico, with configurations and UF2 memory map.",
+        "thumbnail": "project_39",
+        "category": ["firmware"]
     }
 ]
