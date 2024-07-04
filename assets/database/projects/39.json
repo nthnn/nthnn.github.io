@@ -1,0 +1,4 @@
+{
+    "title": "Rust RP2040 Template",
+    "content": "<h1 class=\"shimmer\">Rust RP2040 Template</h1><hr/><p>This Rust RP2040 project template aims to help the developers for a starting point on the development of embedded Rust with Raspberry Pi Pico. The template includes Cargo configurations, UF2 memory map, basic LED blinking program, and a simple Visual Studio Code configuration for <a href=\"https://code.visualstudio.com/docs/languages/rust\" class=\"text-decoration-none\" target=\"_blank\">Rust Analyzer</a> plugin.</p><br/><div align=\"center\"><a class=\"btn-reactive-a\" href=\"https://github.com/nthnn/rust-rp2040\" target=\"_blank\"><button class=\"btn-reactive btn-lg\"><div class=\"i-wrapper\"><i class=\"lni lni-github no-rotate\"></i></div><span class=\"lead\">Get on GitHub</span></button></a></div>"
+}
