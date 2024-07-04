@@ -310,5 +310,13 @@
         "description": "A starting point for developing embedded Rust applications on Raspberry Pi Pico, with configurations and UF2 memory map.",
         "thumbnail": "project_39",
         "category": ["firmware"]
+    },
+    {
+        "id": 40,
+        "title": "DynaConfig",
+        "short_description": "WiFi dynamic config for ESP32",
+        "description": "Arduino WiFi dynamic configuration library for ESP32 using captive portal authentication.",
+        "thumbnail": "project_40",
+        "category": ["firmware"]
     }
 ]
