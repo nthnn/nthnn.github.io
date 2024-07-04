@@ -318,5 +318,13 @@
         "description": "Arduino WiFi dynamic configuration library for ESP32 using captive portal authentication.",
         "thumbnail": "project_40",
         "category": ["firmware"]
+    },
+    {
+        "id": 41,
+        "title": "Uartix",
+        "short_description": "Programming Language with RPi Pico",
+        "description": "Dynamic scripting language that performs mathematical computations on a connected Raspberry Pi Pico.",
+        "thumbnail": "project_41",
+        "category": ["software", "firmware"]
     }
 ]
