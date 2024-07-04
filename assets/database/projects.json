@@ -326,5 +326,13 @@
         "description": "Dynamic scripting language that performs mathematical computations on a connected Raspberry Pi Pico.",
         "thumbnail": "project_41",
         "category": ["software", "firmware"]
+    },
+    {
+        "id": 42,
+        "title": "tasuke",
+        "short_description": "Customizable AI Assistant",
+        "description": "Personal computer assistant that utilizes AI voice command recognition to help automate tasks.",
+        "thumbnail": "project_42",
+        "category": ["ai", "software"]
     }
 ]
