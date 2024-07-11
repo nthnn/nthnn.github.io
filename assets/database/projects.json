@@ -334,5 +334,13 @@
         "description": "Personal computer assistant that utilizes AI voice command recognition to help automate tasks.",
         "thumbnail": "project_42",
         "category": ["ai", "software"]
+    },
+    {
+        "id": 43,
+        "title": "mdif",
+        "short_description": "Minimal Data Image Format",
+        "description": "MDIF is a lightweight image format with minimal data structure and integration with Diwa in mind.",
+        "thumbnail": "project_43",
+        "category": ["software"]
     }
 ]
